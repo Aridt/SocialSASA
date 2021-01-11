@@ -3,7 +3,7 @@
 require("./controller/UsuarioController.php");
 $controller = new UsuarioController;
 
-$home = "/Prueba_aridt/index.php/";
+$home = "/SocialSASA/index.php/";
 
 $ruta = str_replace($home, "", $_SERVER["REQUEST_URI"]);
 $array_ruta = array_filter(explode("/", $ruta));
